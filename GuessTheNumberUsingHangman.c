@@ -80,7 +80,7 @@ int main()
                 printf(" |   /|\\\n");
                 printf(" |    |\n");
                 printf("_|_  / \\\n");
-                if(hangman_stage == 8) {
+                if(hangman_stage == 7) {
                 	printf("\nSorry, you could not guess the number. The actual number was %d\n", num);
                     break;
                 }
